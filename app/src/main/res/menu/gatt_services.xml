@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.bluetooth.le.EmailActivity">
+    <item android:id="@+id/Back" android:title="Back"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/menu_connect" android:title="Connect"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/Getdata" android:title="Pull Data"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!-- getdata  -->
+    <item android:id="@+id/GetDeviceInfo" android:title="Get Deviceinfo"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/GetBattery" android:title="Get Battery"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/GetEEPROM" android:title="Get EEPROM Data"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/GetDeviceTime" android:title="Get Device Time"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!-- end getdata  -->
+    <item android:id="@+id/Setrealtime" android:title="Set Realtime mode"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!-- set Realtime  -->
+    <item android:id="@+id/gyroX" android:title="Set GyroX"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/gyroY" android:title="Set GyroY"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/gyroZ" android:title="Set GyroZ"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/gyroXYZ" android:title="Set GyroXYZ"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/accX" android:title="Set AccX"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/accY" android:title="Set AccY"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/accZ" android:title="Set AccZ"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/accXYZ" android:title="Set AccXYZ"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!-- end Realtime  -->
+    <!-- set Data  -->
+    <item android:id="@+id/Setdata" android:title="Set Data"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/TimeSync" android:title="Time Sync"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/ClearData" android:title="Clear Data"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <!-- end SetData  -->
+    <item android:id="@+id/GetCSCV" android:title="Get CSCV"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/CSCVON" android:title="CSCV ON"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/CSCVOFF" android:title="CSCV OFF"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
+
