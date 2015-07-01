@@ -525,7 +525,7 @@ public class BluetoothLeService extends Service {
             } else {
                 for (int i = 0; i < 20; i++) {
                     if (i == 0) {
-                        cmd[i] = (byte) 0xA3;
+                        cmd[i] = (byte) 0xA4;
                     } else {
                         cmd[i] = (byte) 0;
                     }
